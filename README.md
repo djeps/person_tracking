@@ -21,13 +21,13 @@ in the order they're presented:
 # Conclusion
 
 My personal experience from all of these experiments showed me that there's little to no
-performance improvement from converting the `YOLO v8n (PyTorch)` to a `TensorRT` one.
+performance improvement from converting the `YOLO v8n (nano)` model to a `TensorRT` one.
 
 In fact, precision put aside (because it's pretty much the same in both cases) you're better
 off using the `YOLO v8n (nano)` model directly on the Jetson Nano as it's slightly better
 in the inference speed but much better in the pre- and post- processing phase.
 
-Unless I've conducting my tests completely wrong...
+Unless I've been conducting my tests completely wrong...
 
 There's one experiment that's referenced in the last couple of sections which seems to
 suggest that if we take the largest of the `YOLO v8` models and optimize it with TensortRT,
