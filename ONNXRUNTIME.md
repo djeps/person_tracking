@@ -2,7 +2,7 @@
 
 # Building ONNX Runtime
 
-> Note: Spoiler alert! Building the ONNX Runtime failed mid-way through the process and jsut got tired
+> Spoiler alert! Building the ONNX Runtime failed mid-way through the process and jsut got tired
   of trying and fixing one error after another just to get it started. I left the description of the
   the process I took, I eventually - I ended up pip installing it, and exeperienced some unexpected
   behavior.
