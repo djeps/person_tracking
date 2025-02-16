@@ -1,3 +1,5 @@
+# Person detection and tracking with YOLO on a Jetson Nano board
+
 To complete the task of deploying YOLO and BoxMOT on a Jetson Nano, please follow each topic
 in the order they're presented:
 
