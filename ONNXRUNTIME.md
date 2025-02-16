@@ -7,7 +7,7 @@
   the process I took, I eventually - I ended up pip installing it, and exeperienced some unexpected
   behavior.
 
-As part of the build process of `onnxruntime`, th `build.sh` script performs PEP8 conformance checks
+As part of the build process of `onnxruntime`, the `build.sh` script performs PEP8 conformance checks
 of the Python scripts. This is the reason why we need the `flake8` package... so the build system can
 validate the internal Python scripts.
 
