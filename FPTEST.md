@@ -207,7 +207,7 @@ while `0.818` and `0.862` for the *overall* i.e. *person* score respectively for
 This almost `10%` improved `mAP` score for e.g. the *person* class is due to the fact his using the largest of the `YOLO v8`
 models, but frankly not that tempting so that we try and follow the same route.
 
-What is though tempting, is the impovement in the *inference speed*: he's achieving an inference speed of almost `x2` less
+What is tempting though, is the impovement in the *inference speed*: he's achieving an inference speed of almost `x2` less
 than in our experiments (at roughly `25ms`!).
 
 [Home](README.md)
