@@ -15,3 +15,20 @@ in the order they're presented:
 - [Further performance testing](PTEST.md)
 - [Running predictions on the KITTI and JAAD datasets (w/o model fine tuning)](FPTEST.md)
 - [Person detection and tracking](DETECTNTRACK.md)
+
+# Conclusion
+
+My personal experience from all of these experiments showed me that there's little to no
+performance improvement from converting the `YOLO v8n (PyTorch)` to a `TensorRT` one.
+
+In fact, precision put aside (because it's pretty much the same in both cases) you're better
+off using the `YOLO v8n (nano)` model directly on the Jetson Nano as it's slightly better
+in the inference speed but much better in the pre- and pos- processing.
+
+Unless I've conducting my tests completely wrong...
+
+There's one experiment that's referenced in the last couple of sections which seems to
+suggest that if we take the largest of the `YOLO v8` models and optimize it with TensortRT,
+there are significant performance improvements but that entire experiment wasn't performed
+on a resource 'constrained' target such as the Jetson Nano where just using the smallest
+of v8 family models makes more sense.
