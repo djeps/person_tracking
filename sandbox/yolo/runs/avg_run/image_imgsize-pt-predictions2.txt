@@ -1,0 +1,16 @@
+Ultralytics YOLOv8.2.81 🚀 Python-3.8.10 torch-1.13.0a0+git7c98e70 CUDA:0 (NVIDIA Tegra X1, 3964MiB)
+YOLOv8n summary (fused): 168 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+
+image 1/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-01.jpg: 640x640 3 persons, 6 cars, 114.7ms
+image 2/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-02.jpg: 640x640 3 persons, 6 cars, 114.0ms
+image 3/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-03.jpg: 640x640 3 persons, 6 cars, 103.9ms
+image 4/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-04.jpg: 640x640 3 persons, 6 cars, 88.1ms
+image 5/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-05.jpg: 640x640 3 persons, 6 cars, 87.9ms
+image 6/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-06.jpg: 640x640 3 persons, 6 cars, 88.0ms
+image 7/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-07.jpg: 640x640 3 persons, 6 cars, 87.9ms
+image 8/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-08.jpg: 640x640 3 persons, 6 cars, 87.9ms
+image 9/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-09.jpg: 640x640 3 persons, 6 cars, 87.8ms
+image 10/10 /home/jetson/sandbox/yolo/avg_run/../images/temp/temp/image01-10.jpg: 640x640 3 persons, 6 cars, 87.8ms
+Speed: 5.8ms preprocess, 94.8ms inference, 10.4ms postprocess per image at shape (1, 3, 640, 640)
+Results saved to [1mruns/detect/predict6[0m
+💡 Learn more at https://docs.ultralytics.com/modes/predict

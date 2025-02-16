@@ -1,0 +1,7 @@
+Ultralytics YOLOv8.2.81 🚀 Python-3.8.10 torch-1.13.0a0+git7c98e70 CUDA:0 (NVIDIA Tegra X1, 3964MiB)
+YOLOv8n summary (fused): 168 layers, 3,151,904 parameters, 0 gradients, 8.7 GFLOPs
+
+image 1/1 /home/jetson/sandbox/yolo/run_01/../images/image01.jpg: 384x640 3 persons, 4 cars, 1 truck, 72.0ms
+Speed: 69.0ms preprocess, 72.0ms inference, 151.3ms postprocess per image at shape (1, 3, 384, 640)
+Results saved to [1mruns/detect/predict[0m
+💡 Learn more at https://docs.ultralytics.com/modes/predict
