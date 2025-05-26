@@ -38,7 +38,7 @@ specific version of `TensorFlow` we inherited from our base system which we don'
 Furthermore, neither `BoxMOT` nor `Ultralytics YOLO` are built on top of `TensorFlow` but on top of `PyTorch`.
 Hence, we are not going to do anything for now and just leave it be!
 
-What we are going to do is remove the installed OpenCV version, which after the build is finished, we can lsit with:
+What we are going to do is remove the installed OpenCV version, which after the build is finished, we can list with:
 
 ```shell
 pip3 show opencv-python
